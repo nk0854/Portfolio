@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: black;
+    background: rgb(255, 255, 255)
 }
 .navbar .max-width{
     display: flex;
@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: black;
     font-size: 35px;
     font-weight: 600;
 }
@@ -105,7 +105,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color:white;
 }
 .navbar .menu li{
     list-style: none;
@@ -113,17 +113,17 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: black;
+    color: #551A8B
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #551A8B;
 }
 
 /* menu btn styling */
@@ -137,12 +137,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: black;
+    background: white;
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color:black;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/images.jpg") no-repeat center;
+    background: url("images/domenico-loia-hGV2TfOh0ns-unsplash.jpg") no-repeat center;
     height: 100vh;
-    color: white;
+    color: black;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -193,7 +193,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: white;
+    color:rgb(156, 108, 18) ;
     font-weight: 500;
 }
 .home .home-content a{
@@ -570,7 +570,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background:rgba(14, 14, 14, 0.878);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
